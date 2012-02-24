@@ -82,16 +82,16 @@
     
     
     
-    [items addObject:[TTTableImageItem itemWithText:@"This is first Left Side Text" imageURL:@"bundle://NoImageIcon@2x.png"]];
+    [items addObject:[TTTableImageItem itemWithText:@"This is first Left Side Text" imageURL:@"bundle://tableIcon.png"]];
     
     [items addObject:[TTTableRightImageItem itemWithText:@"I wanted to demonstrate apple SMS type look and feel using three20. This is not a complete implementation" imageURL:@"bundle://defaultPerson.png" defaultImage:nil imageStyle:TTSTYLE(rounded) URL:nil]];
 
      
    
-    [items addObject:[TTTableImageItem itemWithText:@"To view complete implementation checkout my app on appstore" imageURL:@"bundle://NoImageIcon@2x.png"]];
+    [items addObject:[TTTableImageItem itemWithText:@"To view complete implementation checkout my app on appstore" imageURL:@"bundle://tableIcon.png"]];
     
 
-     [items addObject:[TTTableImageItem itemWithText:@"This has custom cell with variable height,table bannerView. This should be suffecient for anyone wants to get started" imageURL:@"bundle://NoImageIcon@2x.png"]];
+     [items addObject:[TTTableImageItem itemWithText:@"This has custom cell with variable height,table bannerView. This should be suffecient for anyone wants to get started" imageURL:@"bundle://tableIcon.png"]];
     
     
      

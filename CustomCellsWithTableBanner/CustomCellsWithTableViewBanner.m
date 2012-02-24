@@ -60,7 +60,7 @@
         NSLog(@"TextView text is %@",textView.text);
 
         
-        [self.model didInsertObject:[TTTableImageItem itemWithText:textView.text imageURL:@"bundle://NoImageIcon@2x.png"] atIndexPath:[NSIndexPath indexPathForRow:count inSection:0]];
+        [self.model didInsertObject:[TTTableImageItem itemWithText:textView.text imageURL:@"bundle://tableIcon.png"] atIndexPath:[NSIndexPath indexPathForRow:count inSection:0]];
                
         count=count++;
         if (self.tableOverlayView) {
@@ -251,7 +251,10 @@
 }
 
 
-- (void)dealloc {    
+- (void)dealloc {   
+    [containerView release];
+    [textView release];
+    [sendButton release];
     [super dealloc];
 }
 
